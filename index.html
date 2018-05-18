@@ -8,7 +8,17 @@
 </head>
 
 <body>
-    <div id="upperBar">
+
+    <h1>Bienvenido</h1>
+    <p>Ingresa tu nombre</p>
+    <form id="formulario" method="Post">
+        <input type="text" id="texto">
+        <input type="button" name="enviar" value="enviar" onclick="nombre();">
+    </form>
+
+    <p id="saludo"></p>
+    
+    <!--<div id="upperBar">
         <span id="nameLabel">Nombre : </span>
         <span id="name"></span>
     </div>
@@ -28,7 +38,7 @@
     </div>
     <div id="warningBlock">
         <p id="warningMessage"></p>
-    </div>
+    </div>-->
     <script src="app.js"></script>
 </body>
 

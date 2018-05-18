@@ -1,4 +1,8 @@
-window.onload = function() {
+function nombre(){
+    var name = document.getElementById("texto").value;
+    name = document.getElementById("saludo").innerHTML = "Hola " + name + ", Quieres jugar?";
+}
+/*window.onload = function() {
     var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
 
@@ -36,4 +40,4 @@ window.onload = function() {
     } else {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
-}
+}*/
