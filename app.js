@@ -2,6 +2,7 @@ function nombre(){
     var name = document.getElementById("texto").value;
     name = document.getElementById("saludo").innerHTML = "Hola " + name + ", Quieres jugar?";
 }
+
 function btnSi(){
 
 }
@@ -9,6 +10,7 @@ function btnSi(){
 function btnNo(){
     document.getElementById("confirmation").innerHTML = ":'(";
 }
+
 
 
 
@@ -50,4 +52,4 @@ function btnNo(){
     } else {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
-}
+}*/
