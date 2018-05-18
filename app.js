@@ -4,7 +4,8 @@ function nombre(){
 }
 
 function btnSi(){
-
+    var pregunta1 = document.getElementById("question1").value;
+    pregunta1= document.getElementById("respuesta1").innerHTML = "sdc";
 }
 
 function btnNo(){
