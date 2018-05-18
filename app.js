@@ -1,4 +1,18 @@
-window.onload = function() {
+function nombre(){
+    var name = document.getElementById("texto").value;
+    name = document.getElementById("saludo").innerHTML = "Hola " + name + ", Quieres jugar?";
+}
+function btnSi(){
+
+}
+
+function btnNo(){
+    document.getElementById("confirmation").innerHTML = ":'(";
+}
+
+
+
+/*window.onload = function() {
     var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
 
